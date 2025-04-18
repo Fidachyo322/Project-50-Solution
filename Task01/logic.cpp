@@ -33,7 +33,7 @@ int sum_elements_down_main_deagonale(int matrix[SIZE][SIZE], int size) {
 	{
 		for (int j = 0; j < size; j++)
 		{
-			if (j <= i) {
+			if (j >= i) {
 				sum += matrix[i][j];
 			}
 		}
